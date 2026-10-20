@@ -1,0 +1,26 @@
+# Resume data may contain personal information.
+/data/raw/
+/data/processed/
+
+# Python caches and virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter and editor state.
+.ipynb_checkpoints/
+.vscode/
+/notebooks/01_exploration.ipynb
+
+# Local secrets and temporary files.
+.env
+.env.*
+!.env.example
+*.tmp
+*.temp
+*.log
+*~
+# Trained models and serialized ML artifacts.
+models/
+*.pkl
